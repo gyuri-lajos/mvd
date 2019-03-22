@@ -13,7 +13,7 @@ var MIN = 60*SEC
 var network = 'ssb'
 //var network = 'decent'
 //var network = 'testnet'
-
+var network = 'testhub'
 var config = require('./config/inject')(network)
 
 config.keys = ssbKeys.loadOrCreateSync(path.join(config.path, 'secret'))
